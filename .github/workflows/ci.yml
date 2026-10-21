@@ -14,6 +14,9 @@ jobs:
   main:
     env:
       NX_CLOUD_VERBOSE_LOGGING: true
+      # Forwarded to workers via workers.with-env-vars in .nx/ci-config.yaml
+      NX_CLOUD_CONTINUOUS_ASSIGNMENT: true
+      NX_CLOUD_AUTO_TASK_PACKING: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
