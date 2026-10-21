@@ -116,5 +116,7 @@
       }
     }
   },
-  "analytics": false
+  "analytics": false,
+  "nxCloudUrl": "http://localhost:4203",
+  "nxCloudId": "6ad8e6218ec6bddae8e74da4"
 }
